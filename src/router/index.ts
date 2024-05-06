@@ -1,8 +1,8 @@
-import { createRouter, createMemoryHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import permission from './permission'
 
 const router = createRouter({
-  history: createMemoryHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/Login',
