@@ -100,7 +100,7 @@ async function submit() {
 [data-theme='1'] #login
   background: var(--color-1)
   > form > h1
-    background-image: url('@img/logo.png')
+    background-image: url('@img/logo_w.png')
 </style>
 <style lang="sass" scoped>
 #login
