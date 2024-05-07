@@ -56,7 +56,7 @@ const respRender = computed(() => {
     statusStr: texts.value['正常'],
     bonusStr: _.random(0, 10777700.22).toLocaleString(),
     realBonusStr: _.random(0, 1044400.55).toLocaleString(),
-    createDateStr: moment('2024-01-01T00:00:00Z').format('YYYY/MM/DD HH:mm:SS'),
+    createDateStr: moment('2024-01-01T00:00:00Z').format('YYYY/MM/DD HH:mm:ss'),
     OperationAccount: 'Admin',
   }))
 })
