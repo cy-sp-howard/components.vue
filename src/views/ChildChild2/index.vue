@@ -12,7 +12,7 @@ const DetailDialogApp = new Dialog(DetailDialog)
 const loading = ref(0)
 
 const timeDemo = computed(() => {
-  return utcMoment('2020-02-03T20:00:00Z').format('YYYY/MM/DD HH:mm:SS')
+  return utcMoment('2020-02-03T20:00:00Z').format('YYYY/MM/DD HH:mm:ss')
 })
 
 function openDetailDialog() {
